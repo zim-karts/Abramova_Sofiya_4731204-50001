@@ -1,0 +1,6 @@
+weight = input("Введите ваш вес (кг): ").strip()
+height = input("Введите ваш рост (см): ").strip()
+weight  = int(weight)
+height = int(height)
+res = weight*10000/(height**2)
+print(f"-- Информация о состоянии здоровья --\nВес:\t{weight}\nРост:\t{height}\nИндекс массы тела:\t{res:.2f}")

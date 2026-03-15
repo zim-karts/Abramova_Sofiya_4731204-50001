@@ -1,0 +1,8 @@
+protein_mass = input("Введите массу белков (г): ").strip()
+fat_mass = input("Введите массу жиров (г): ").strip()
+carbohydrates_mass = input("Введите массу углеводов (г): ").strip()
+protein = int(protein_mass)
+fat = int(fat_mass)
+carbohydrates = int(carbohydrates_mass)
+res = (protein*4 + fat*9 + carbohydrates*4)
+print(f"Итоговая калорийность: {res}")

@@ -1,0 +1,5 @@
+capsuls = input("Введите количество произведенных капсул: ").strip()
+number = input("Введите вместимость одной упаковки: ").strip()
+ful_number_capsuls = int(capsuls)//int(number)
+ost_number_capsuls = int(capsuls)%int(number)
+print(f"-- Отчет фасовочного цеха --\nПолных упаковок:\t{ful_number_capsuls}\nОстаток капсул: \t{ost_number_capsuls}")
