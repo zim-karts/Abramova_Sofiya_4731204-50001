@@ -1,0 +1,7 @@
+dna = input("Введите последовательность ДНК: ").strip()
+dna_up = dna.upper()
+A = dna_up.count("A")
+T = dna_up.count("T")
+G = dna_up.count("G")
+C = dna_up.count("C")
+print(f"=== Анализ последовательности ДНК ===\n\nПоследовательность в верхнем регистре: {dna_up}\n\nПодсчет нуклеотидов:\nA: {A}\nT: {T}\nG: {G}\nC: {C}")
