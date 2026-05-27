@@ -1,0 +1,11 @@
+Модальные значения по параметрам:
+boar_id: 1.00
+age_years: 5.90
+weight_kg: 63.50
+length_cm: 210.00
+shoulder_height_cm: 80.40
+tusk_length_cm: 0.00
+litter_size: 0.00
+health_score: 100.00
+territory_ha: 0.80
+gender: Male
